@@ -1,0 +1,317 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Dashboard One | Notika - Notika Admin Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon
+		============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Google Fonts
+		============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- owl.carousel CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <!-- meanmenu CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/meanmenu/meanmenu.min.css">
+    <!-- animate CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- normalize CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- mCustomScrollbar CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- jvectormap CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/jvectormap/jquery-jvectormap-2.0.3.css">
+    <!-- notika icon CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/notika-custom-icon.css">
+    <!-- wave CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/wave/waves.min.css">
+    <!-- main CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- style CSS
+		============================================ -->
+    <link rel="stylesheet" href="style.css">
+    <!-- responsive CSS
+		============================================ -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- modernizr JS
+		============================================ -->
+    <!-- bootstrap select CSS
+    ============================================ -->
+    <link rel="stylesheet" href="css/bootstrap-select/bootstrap-select.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <!-- Start Header Top Area -->
+    <div class="header-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="img/logo/logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <div class="header-top-menu">
+                        <ul class="nav navbar-nav notika-top-nav">
+                            <li class="nav-item ">
+                                <a href="index.html"  role="button" aria-expanded="false" class="nav-link"><span><i class="notika-icon notika-search"></i></span></a>
+
+                            </li>
+
+                            <li class="nav-item nc-al">
+                                <a href="credit.html"  role="button" aria-expanded="false" class="nav-link"><span><i class="notika-icon notika-menus"></i></span></a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Top Area -->
+
+    <!-- Content -->
+    <!-- Form Element area Start-->
+      <div class="form-element-area">
+          <div class="container">
+              
+
+              <!-- Credit History -->
+              <div id="history" class="row">
+                <!-- New Credit Request -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="form-element-list mg-t-30">
+                        <div class="basic-tb-hd">
+                            <h2>Credit Request</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="floating-numner form-rlt-mg">
+                                    <p>Whether done in person or individually the application must legally contain all pertinent information relating to the cost of the credit for the borrower</p>
+                                </div>
+
+                      <!-- Loan Form -->
+
+                     <div class="form">
+                       <div class="row">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                               <!-- National ID -->
+                               <div class="form-group">
+                                 <label>National ID</label>
+                                 <div class="nk-int-st">
+                                     <input type="text" class="form-control" id="SSN" placeholder="Please fill in your national ID">
+                                 </div>
+                               </div>
+                               <!-- National ID -->
+                               <!-- Amount -->
+                               <div class="form-group">
+                                 <label>Amount</label>
+                                 <div class="nk-int-st">
+                                     <input type="text" class="form-control" id="amount" placeholder="e.g. 100000">
+                                 </div>
+                               </div>
+                               <!-- Amount END -->
+                               <!-- Monthly Income -->
+                               <div class="form-group">
+                                 <label>Monthly Income</label>
+                                 <div class="nk-int-st">
+                                     <input type="text" class="form-control" id="income" placeholder="e.g. 100000">
+                                 </div>
+                               </div>
+                               <!-- Monthly Income END -->
+                               <!-- Destination -->
+                               <div class="form-group">
+                                    <label>Destination</label>
+                                    <div class="bootstrap-select fm-cmp-mg">
+                                        <select class="selectpicker" data-live-search="true" id="destination" style="width: 100%;">
+                                          <option value="personal">Personal</option>
+                                          <option value="mortgage">Mortgage</option>
+                                          <option value="leasing">Leasing</option>
+                                          <option value="card">Credit Card</option>
+                                        </select>
+                                    </div>
+                                </div>
+                               <!-- Destination End -->
+                               <!-- Duration -->
+                               <div class="form-group">
+                                    <label>Duration (Months)</label>
+                                    <div class="bootstrap-select fm-cmp-mg">
+                                        <select class="selectpicker" data-live-search="true" id="duration" style="width: 100%;">
+                                          <option value="1">1</option>
+                                          <option value="3">3</option>
+                                          <option value="6">6</option>
+                                          <option value="12">12</option>
+                                          <option value="24">24</option>
+                                          <option value="36">36</option>
+                                          <option value="48">48</option>
+                                          <option value="60">60</option>
+                                          <option value="120">120</option>
+                                          <option value="240">240</option>
+                                        </select>
+                                    </div>
+                                </div>
+                               <!-- Duration End -->
+                               <div class="form-example-int">
+                                   <button class="btn btn-success notika-btn-success waves-effect" onclick="App.recommend(); return false;">Recommend</button>
+                               </div>
+                          </div>
+                       </div>
+                     </div>
+
+
+                     <!-- Loan Form -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                  <div class="form-element-list mg-t-30">
+                      <div class="basic-tb-hd">
+                            <h2>Recommended Products</h2>
+                      </div>
+                      <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="floating-numner form-rlt-mg">
+                                    <p>We are committed to researching, testing, and recommending the best products. </p>
+                                </div>
+                           </div>
+
+                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                             <table class="table table-striped" id="recommended-products">
+                                <thead>
+                                    <tr>
+                                        <th>Financial Institution</th>
+                                        <th>Product</th>
+                                        <th>Amount</th>
+                                        <th>Duration (Months)</th>
+                                        <th>Interest Rate (%)</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                     <!--<tr>
+                                        <td class="institution"><img class="bcr" src="images\BCR.png" width="100"></td>
+                                        <td class="product">Personal Loan</td>
+                                        <td class="amount">100000</td>
+                                        <td class="duration">12</td>
+                                        <td class="interest">4</td>
+                                        <td><button class="btn btn-success notika-btn-success waves-effect" onclick="App.save(event); return false;">Request</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="institution"><img class="provident" src="images\provident.png" width="100"></td>
+                                        <td class="product">Personal Loan</td>
+                                        <td class="amount">100000</td>
+                                        <td class="duration">12</td>
+                                        <td class="interest">5</td>
+                                        <td><button class="btn btn-success notika-btn-success waves-effect" onclick="App.save(event); return false;">Request</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="institution"><img class="raiffeisen" src="images\raiffeisen.png" width="100"></td>
+                                        <td class="product">Personal Loan</td>
+                                        <td class="amount">100000</td>
+                                        <td class="duration">12</td>
+                                        <td class="interest">4</td>
+                                        <td><button class="btn btn-success notika-btn-success waves-effect" onclick="App.save(event); return false;">Request</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="institution"><img class="allianz" src="images\allianz.png" width="100"></td>
+                                        <td class="product">Personal Loan</td>
+                                        <td class="amount">100000</td>
+                                        <td class="duration">12</td>
+                                        <td class="interest">9</td>
+                                        <td><button class="btn btn-success notika-btn-success waves-effect" onclick="App.save(event); return false;">Request</button></td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                          </div>
+                     </div>
+                  </div>
+                </div>
+                <!-- New Credit Request END -->
+                  </div>
+                <!-- Credit History END -->
+
+              </div>
+          </div>
+      </div>
+      <!-- Form Element area End-->
+    <!-- Content End -->
+
+    <!-- Start Footer area-->
+<div class="footer-copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer-copy-right">
+                        <p>Copyright © 2018
+. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- End Footer area-->
+    <!-- jquery
+		============================================ -->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+		============================================ -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- scrollUp JS
+		============================================ -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- meanmenu JS
+		============================================ -->
+    <script src="js/meanmenu/jquery.meanmenu.js"></script>
+
+    <!-- plugins JS
+		============================================ -->
+    <script src="js/plugins.js"></script>
+    <!-- main JS
+		============================================ -->
+    <script src="js/main.js"></script>
+
+    <!-- Middleware JS
+		============================================ -->
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+ 
+    <!-- Data JS
+		============================================ -->
+    <script src="js/data.js"></script>
+
+    <!-- bootstrap select JS
+============================================ -->
+<script src="js/bootstrap-select/bootstrap-select.js"></script>
+</body>
+
+</html>
